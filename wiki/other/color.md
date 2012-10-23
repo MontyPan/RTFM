@@ -7,6 +7,6 @@
 
 __於是只好紀錄下來了 Orz__
 
-referenct:[stackoverflow][stackoverflow 1]
+reference:[stackoverflow][stackoverflow 1]
 
-:[stackoverflow 1] http://stackoverflow.com/questions/1855884/determine-font-color-based-on-background-color
+[stackoverflow 1]: http://stackoverflow.com/questions/1855884/determine-font-color-based-on-background-color

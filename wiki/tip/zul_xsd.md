@@ -23,3 +23,5 @@
 
 ### 缺少這些東西 ###
 * template 應該到處都要出得來
+* window
+	* mode 沒有 highlighted

@@ -2,8 +2,11 @@
 
 ZUL
 ===
-* 取得 browser 資訊：`${zk}`
 * `&#36;`→$
+
+EL
+--
+* 取得 browser 資訊：`${zk}`
 
 Tablet
 ------
@@ -62,3 +65,13 @@ Common Java
 
 	ServletRequest request = ServletFns.getCurrentRequest();
 	mobile = Servlets.getBrowser(request, "mobile") != null;
+
+ZK Studio / Maven
+-----------------
+
+Maven
+======
+* SNAPSHOT：還沒 release 的 version 加上 `-SNAPSHOT`，例如「52.87.0-SNAPSHOT」
+* Freshly：到 [download freshly] 看版號，如果是 `ZK-52.87.0-FL-2099-12-31`，就改成 `ZK.52.87.0.FL.2099.12.31`。（未必每天都會出 FL）
+
+[download freshly]: http://www.zkoss.org/download/freshly/

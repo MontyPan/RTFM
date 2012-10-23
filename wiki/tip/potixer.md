@@ -56,7 +56,7 @@ ZUL、EL
 ======
 * `${zk}` 的來源（應該）是 `Servlets.java` 的 `browserInfo()` 
   偷偷塞 `request.setAttribute("zk", zk = new HashMap<String, Object>(4));` 的結果
-  
+
 Tablet
 ======
 * 複寫 js：`/src/archive/web/js/zk.wpd` 加上對應的 `<script>` 內容。
@@ -66,3 +66,14 @@ Tablet
 
 在 `widget-touch.js` 把 `widget` 的 `setMold()` 覆寫成 `zk.$void`，
 所以 component 必須要再覆寫一次 `setMold()` 才能讓 developer 設定 mold。
+
+網頁 tools
+==========
+* 用關鍵字 search ZK 網站（provide by Jumper）
+
+		javascript:void((function(){var loc=self.location.href,   txt = window.getSelection().toString(),  key = txt.length ? txt : window.prompt("Enter");if(key){ window.open("http://www.zkoss.org/doc/searchresult.jsp?cx=008321236477929467003%3A63kdpeqkkvw&cof=FORID%3A11&q="+key+"&sa=");}})());
+		
+* 輸入 issue 編號直接跳到 tracker 頁面
+
+		javascript:void( (function(){ var key = window.prompt("ZK issue 直接打編號即可，其他請包含分類縮寫：").toUpperCase(); key = key.indexOf("-")==-1 ? "ZK-" + key : key; if(key){ window.open("http://tracker.zkoss.org/browse/"+key);}} )() );
+
