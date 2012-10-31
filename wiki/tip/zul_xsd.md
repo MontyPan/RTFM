@@ -25,3 +25,11 @@
 * template 應該到處都要出得來
 * window
 	* mode 沒有 highlighted
+	
+在 `<xs:attribute>` 當中加 
+
+	<xs:annotation>
+		<xs:documentation>DESCRIPTION</xs:documentation>
+	</xs:annotation>
+
+就會在 IDE 當中出現該 attribute 的 description

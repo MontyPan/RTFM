@@ -57,6 +57,10 @@ ZUL、EL
 * `${zk}` 的來源（應該）是 `Servlets.java` 的 `browserInfo()` 
   偷偷塞 `request.setAttribute("zk", zk = new HashMap<String, Object>(4));` 的結果
 
+Taglib
+------
+* http://www.zkoss.org/dsp/web/core
+	* TLD 檔：zweb/src/archive/web/WEB-INF/tld/web/core.dsp.tld
 Tablet
 ======
 * 複寫 js：`/src/archive/web/js/zk.wpd` 加上對應的 `<script>` 內容。
