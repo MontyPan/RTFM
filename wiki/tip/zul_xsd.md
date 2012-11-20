@@ -25,7 +25,10 @@
 * template 應該到處都要出得來
 * window
 	* mode 沒有 highlighted
-	
+* toolbarbutton 沒有 upload
+* InputWidget 沒有 instant
+
+### ZUL 人類補完計畫 ###	
 在 `<xs:attribute>` 當中加 
 
 	<xs:annotation>

@@ -3,9 +3,14 @@
 
 JavaScript
 ==========
+>	* 在 ZK 下有 dom.js，ZUL 底下也有一個，而 jq.alert() 的 doc 寫在 ZK 底下的 dom.js，
+		但是實際跑的是 ZUL 底下的 dom.js（快變成繞口令了），這用意是？？？
+
 * `zk.log()` 比 `console.log()` 方便一點，因為可以直接在畫面上看到訊息、還可以幫你印出變數內容。
 * `console.trace()` 可以印出 call stack。
 * 在 ZUL 當中去改值 `zk.afterLoad('zul.inp', function () {zul.inp.validating=true;});`
+* zk.Widget.$() 可以還原回 ZK widget？（不確定）
+* zk(HTML_ELEMENT) 等於 zk("#"+HTML_ELEMENT.id)，之後可以呼叫 jqzk 的 function。
 
 ZK
 --
