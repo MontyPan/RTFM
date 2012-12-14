@@ -1,5 +1,6 @@
 ### Reference ###
 * [Javadoc home]: http://docs.oracle.com/javase/7/docs/technotes/guides/javadoc/
+	* standard doclet 的參數詳解，要點「Tools」底下的「Javadoc Tool Reference Page」，理論上應該任一均可...
 * [Doclet API]: http://docs.oracle.com/javase/6/docs/jdk/api/javadoc/doclet/index.html
 
 ## Doclet ##

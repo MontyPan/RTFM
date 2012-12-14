@@ -27,10 +27,14 @@
 * toolbarbutton 跟 button 應該要一樣（toolbarbutton 還要比較多一點），但是好像沒有
 
 ### ZUL 人類補完計畫 ###
-在 `<xs:attribute>` 當中加 
+* 在 `<xs:attribute>` 當中加 
 
-	<xs:annotation>
-		<xs:documentation>DESCRIPTION</xs:documentation>
-	</xs:annotation>
+		<xs:annotation>
+			<xs:documentation>DESCRIPTION</xs:documentation>
+		</xs:annotation>
 
-就會在 IDE 當中出現該 attribute 的 description
+	就會在 IDE 當中出現該 attribute 的 description
+* `<xs:annotation>` 必須加在（如果有） `<xs:simpleType>` 的前面
+* `<xs:element>`
+	* default：就 default 值
+	* fixed：只能是這個值
