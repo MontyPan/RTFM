@@ -38,3 +38,19 @@
 * `<xs:element>`
 	* default：就 default 值
 	* fixed：只能是這個值
+* 如果沒有要重複用 `fooType`，可以不用這樣寫
+
+		<xs:element name="foo" type="fooType" />
+		<xs:complexType name="fooType">
+			<!-- blahblah -->
+		</xscomplexType>
+		
+	直接這樣就可以了
+	
+		<xs:element name="foo">
+			<xs:complexType>
+				<!-- blahblah -->
+			</xscomplexType>
+		</xs:element>
+		
+	zul.xse 當中定義 component 幾乎都不會重用。
