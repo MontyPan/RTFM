@@ -72,9 +72,9 @@ end-user 就會發現 URL 改變、browser 的「回上一頁」也可以按了�
 從傳入的 event 當中可以用 `event.getState()` 取得當初傳入的 `Map<String, ?>`。
 所以用裡頭的值重新呼叫一次 `doFilter()`，包含 listbox 跟 textbox 都會還原成當初的樣子。
 
-在 [Github][ZKPushState repo] 可以獲得這個範例、以及 ZKPushState 的完整原始碼。
+在 [Github][ZKPushState] 可以取得這個範例、以及 ZKPushState 的完整原始碼。
 如果有什麼意見也都非常歡迎 \囧/
 
 [Ashish blog]: http://blog.zkoss.org/index.php/2012/03/30/history-management-with-html5-history-api-in-zk/
 [ZKPS.jar]: http://zkpushstate.googlecode.com/files/ZKPS.jar
-[ZKPushState repo]: https://github.com/MontyPan/ZKPushState
+[ZKPushState]: https://github.com/MontyPan/ZKPushState
