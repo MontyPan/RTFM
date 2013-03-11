@@ -1,5 +1,6 @@
 <?page title="new page title" contentType="text/html;charset=UTF-8"?>
 <zk>
+<label value="${desktop.webApp.version}" />
 <grid width="500px">
 	<rows>
 		<row>
